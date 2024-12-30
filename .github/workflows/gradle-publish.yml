@@ -10,6 +10,7 @@ name: Gradle Package
 on:
   pull_request:
     types: [opened, edited]
+  push:
 
 jobs:
   build:
